@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;  
+}
+h2, h3{
+    text-align: center;
+    font-size:40px;
+}
+header{
+    width: 100vw;
+    color: white;
+    left:0px;
+    bottom:0px;
+    height:15vh;
+    background-color: rgba(255, 0, 234, 0.5);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    box-sizing: border-box;
+    flex: 0 1 30%;
+    padding: 0 0 0 50px;
+    width: 30vw;
+    height: 90vh;
+    background-color: rgba(247, 189, 255, 0.7);
+  
+}
+aside ul{
+    list-style-type: none;
+}
+section{
+    display: inline-block;
+    background-color: rgb(231, 150, 252);
+    padding: 20px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vh;
+    width: 70vw;
+}
+.imgs{
+    align-items: center;
+    padding-left: 400px;
+}
+ul{
+    margin: 30px 0 0 0;
+    height: 40px;
+}
+
+ul li{
+    font-size: 45px;
+    
+}
+section img{
+    width: 80%;
+    background-position: center center
+}
+.footer{
+    width: 100vw;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:20vh;
+    background-color: rgba(123, 154, 255, 0.5);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 107, 245);
+}
+section h3{
+    margin: 25px;
+}
+ul li:hover{
+    transition: .3s;
+    font-size: 60px;
+    color: rgb(255, 45, 115);
+    
+}
+.card:hover{
+    width: 275px;
+    height: 275px;
+    background-color: rgb(255, 27, 244);
+    transition: .5s;
+}
